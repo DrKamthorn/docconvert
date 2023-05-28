@@ -25,7 +25,7 @@ def convert_video_to_audio(video_file):
 
 # Streamlit app
 def main():
-    st.title("Zoom Video to Audio Converter")
+    st.title("แปลงไฟล์บันทึก Zoom เป็นไฟล์เสียง ")
     
     # File uploader
     video_file = st.file_uploader("Upload Zoom video file", type=["mp4", "mov"])
